@@ -1,20 +1,20 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "ZLauncher"
+title = "El Desván ✨"
 
 [ejs.landing]
-mediaGitHubURL = "https://zlauncher.zergiv2.tech/"
+mediaGitHubURL = "https://github.com/Zergiv/ElDesvan"
 mediaXURL = "#"
 mediaInstagramURL = "#"
-mediaYouTubeURL = "https://www.youtube.com/@zergiv2102"
-mediaDiscordURL = "https://discord.com/users/377860450294956042"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "#"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/Zergiv/ZLauncher"
-supportLink = "https://github.com/Zergiv/ZLauncher/issues"
+sourceGithubLink = "https://github.com/Zergiv/ElDesvan"
+supportLink = "https://github.com/Zergiv/ElDesvan/issues"
 
 [ejs.welcome]
 welcomeHeader = "Bienvenido"
-welcomeDescription = "Fork para la comunidad de Zergiv2"
+welcomeDescription = "Launcher de El Desván ✨"
 welcomeDescCTA = "Estás a solo unos clicks de entrar."

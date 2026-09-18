@@ -1,26 +1,27 @@
 {
-  "name": "zlauncher",
-  "version": "2.4.0",
-  "productName": "ZLauncher",
-  "description": "Launcher para la comunidad de Zergiv2",
-  "author": "ZLauncher (https://github.com/Zergiv/ZLauncher), fork de Dscalzi (https://github.com/dscalzi/)",
+  "name": "el-desvan",
+  "version": "1.0.0",
+  "productName": "ElDesvan",
+  "description": "Launcher de El Desván ✨",
+  "author": "El Desván (https://github.com/Zergiv/ElDesvan), basado en Helios Launcher de Dscalzi (https://github.com/dscalzi/HeliosLauncher)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/Zergiv/ZLauncher",
+  "homepage": "https://github.com/Zergiv/ElDesvan",
   "bugs": {
-    "url": "https://github.com/Zergiv/ZLauncher/issues"
+    "url": "https://github.com/Zergiv/ElDesvan/issues"
   },
   "private": true,
   "main": "index.js",
+  "packageManager": "pnpm@10.15.1",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder build",
-    "dist:win": "npm run dist -- -w",
-    "dist:mac": "npm run dist -- -m",
-    "dist:linux": "npm run dist -- -l",
+    "dist:win": "pnpm run dist -- -w",
+    "dist:mac": "pnpm run dist -- -m",
+    "dist:linux": "pnpm run dist -- -l",
     "lint": "eslint ."
   },
   "engines": {
-    "node": "22.x.x"
+    "node": ">=22"
   },
   "dependencies": {
     "@electron/remote": "^2.1.3",
@@ -49,6 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zergiv/ZLauncher.git"
+    "url": "git+https://github.com/Zergiv/ElDesvan.git"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "electron-winstaller"
+    ]
   }
 }

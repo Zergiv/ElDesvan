@@ -1,6 +1,6 @@
 # Microsoft Authentication
 
-Authenticating with Microsoft is fully supported by ZLauncher.
+Authenticating with Microsoft is fully supported by El Desván.
 
 ## Acquiring an Entra Client ID
 
@@ -28,7 +28,7 @@ Authenticating with Microsoft is fully supported by ZLauncher.
 9. Copy **Application (client) ID**.
 
 
-## Adding the Entra Client ID to ZLauncher.
+## Adding the Entra Client ID to El Desván.
 
 In `app/assets/js/ipcconstants.js` you'll find **`AZURE_CLIENT_ID`**. Set it to your application's id.
 

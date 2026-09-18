@@ -1,6 +1,6 @@
 // NOTE FOR THIRD-PARTY
 // REPLACE THIS CLIENT ID WITH YOUR APPLICATION ID.
-// SEE https://github.com/Zergiv/ZLauncher/blob/master/docs/MicrosoftAuth.md
+// SEE https://github.com/Zergiv/ElDesvan/blob/master/docs/MicrosoftAuth.md
 exports.AZURE_CLIENT_ID = 'e4b4140a-4706-42d6-b8a7-cdb559bf1740'
 // SEE NOTE ABOVE.
 

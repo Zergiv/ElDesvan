@@ -1,8 +1,8 @@
-appId: 'zlauncher'
-productName: 'ZLauncher'
+appId: 'eldesvan'
+productName: 'ElDesvan'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2026 Zergiv2'
+copyright: 'Copyright © 2026 El Desván'
 
 asar: true
 compression: 'maximum'
@@ -40,9 +40,9 @@ mac:
 linux: 
   target: 'AppImage'
   maintainer: 'Zergiv'
-  vendor: 'Zergiv'
-  synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
+  vendor: 'ElDesvan'
+  synopsis: 'Launcher de El Desván'
+  description: 'Launcher personalizado para unirse al servidor de El Desván. Mods, configuraciones y actualizaciones se gestionan automáticamente.'
   category: 'Game'
 
 
