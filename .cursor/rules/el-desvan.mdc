@@ -1,0 +1,14 @@
+---
+description: Convenciones del launcher El Desván
+alwaysApply: true
+---
+
+# El Desván ✨
+
+- Nombre público / UI: **El Desván ✨**
+- `productName` / artefactos: `ElDesvan`
+- Carpeta de datos: `.eldesvan`
+- Repo: https://github.com/Zergiv/ElDesvan
+- Gestor de paquetes: **pnpm** (nunca npm/yarn)
+- No tocar el fork antiguo `Zergiv/ZLauncher`
+- Distribution URL: `app/assets/js/distromanager.js` → `REMOTE_DISTRO_URL`
