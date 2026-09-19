@@ -29,6 +29,4 @@ pnpm install
 pnpm start
 ```
 
-Build: `pnpm run dist` · Release: tag `vX.Y.Z` y push.
-
 Basado en [HeliosLauncher](https://github.com/dscalzi/HeliosLauncher).
