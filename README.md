@@ -57,13 +57,16 @@ ctrl + shift + i
 | macOS       | `pnpm run dist:mac`   |
 | Linux x64 | `pnpm run dist:linux` |
 
-### Configuración pendiente
+### Releases y actualizaciones
 
-Antes de lanzar en producción, configura:
+El launcher se actualiza solo desde [GitHub Releases](https://github.com/Zergiv/ElDesvan/releases).
 
-1. **Distribution URL** en `app/assets/js/distromanager.js` (`REMOTE_DISTRO_URL`) — apunta al `distribution.json` de tu servidor (Nebula).
-2. **Enlaces sociales** en `app/assets/lang/_custom.toml` (Discord, YouTube, etc.).
-3. **Microsoft Auth** si necesitas un Client ID propio — ver [docs/MicrosoftAuth.md](docs/MicrosoftAuth.md).
+1. Sube la versión en `package.json` (p. ej. `1.0.1`).
+2. Commit y push a `master`.
+3. Crea y sube el tag: `git tag v1.0.1 && git push origin v1.0.1`
+4. GitHub Actions publica los instaladores (`latest.yml`, `.exe`, `.dmg`, `.AppImage`).
+
+El botón **Buscar actualizaciones** solo funciona en la app instalada (no con `pnpm start`).
 
 ### Créditos
 

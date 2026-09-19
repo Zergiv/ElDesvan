@@ -1,6 +1,11 @@
 name: Build
 
-on: push
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - 'v*'
 
 jobs:
   release:
@@ -38,5 +43,10 @@ jobs:
       - name: Build
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm run dist
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            pnpm run dist -- --publish always
+          else
+            pnpm run dist -- --publish never
+          fi
         shell: bash

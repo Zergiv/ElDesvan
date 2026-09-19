@@ -49,3 +49,9 @@ linux:
 directories:
   buildResources: 'build'
   output: 'dist'
+
+publish:
+  provider: github
+  owner: Zergiv
+  repo: ElDesvan
+  releaseType: release

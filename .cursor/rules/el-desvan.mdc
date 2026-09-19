@@ -11,4 +11,6 @@ alwaysApply: true
 - Repo: https://github.com/Zergiv/ElDesvan
 - Gestor de paquetes: **pnpm** (nunca npm/yarn)
 - No tocar el fork antiguo `Zergiv/ZLauncher`
-- Distribution URL: `app/assets/js/distromanager.js` → `REMOTE_DISTRO_URL`
+- Distribution URL: `app/assets/js/distromanager.js` → `https://desvan.zergiv2.tech/nebula/distribution.json`
+- Web / Discord: `app/assets/lang/_custom.toml`
+- Releases: tag `vX.Y.Z` → Actions publica; auto-update lee GitHub Releases

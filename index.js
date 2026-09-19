@@ -244,15 +244,11 @@ function createWindow() {
     }
     Object.entries(data).forEach(([key, val]) => ejse.data(key, val))
 
-    win.loadURL(pathToFileURL(path.join(__dirname, 'app', 'app.ejs')).toString())
-
     win.webContents.on('did-finish-load', () => {
         win.webContents.setZoomFactor(1.63)
     })
 
-    /*win.once('ready-to-show', () => {
-        win.show()
-    })*/
+    win.loadURL(pathToFileURL(path.join(__dirname, 'app', 'app.ejs')).toString())
 
     win.removeMenu()
 
